@@ -89,7 +89,7 @@ export function App() {
   const [isPasswordStrong, setIsPasswordStrong] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const outputRef = useRef(null);
+  const outputRef = useRef<HTMLDivElement | null>(null);
   const [scrollToOutput, setScrollToOutput] = useState(false);
 
   const createUserForm = useForm<CreateUserData>({
@@ -147,7 +147,7 @@ export function App() {
   useEffect(() => {
     if (scrollToOutput && outputRef.current) {
       setTimeout(() => {
-        outputRef.current.scrollIntoView({ behavior: "smooth" });
+        outputRef.current?.scrollIntoView({ behavior: "smooth" });
         setScrollToOutput(false);
       }, 100);
     }
