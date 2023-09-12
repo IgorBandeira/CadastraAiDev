@@ -15,3 +15,9 @@ body {
   word-wrap: break-word;
   overflow-x: auto;
 }
+
+@media screen and (max-width: 760px) {
+  #my-pre {
+    max-width: 350px;
+  }
+}
