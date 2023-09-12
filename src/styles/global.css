@@ -9,3 +9,9 @@ body {
     rgb(90, 90, 90) 100%
   );
 }
+#my-pre {
+  max-width: 400px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-x: auto;
+}

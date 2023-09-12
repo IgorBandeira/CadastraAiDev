@@ -306,7 +306,10 @@ export function App() {
             size={96}
           />
 
-          <pre className="mb-8 font-bold text-sm bg-yellow-400 text-black-100 p-2 rounded-lg">
+          <pre
+            id="my-pre"
+            className="mb-8 font-bold text-sm bg-yellow-400 text-black-100 p-2 rounded-lg"
+          >
             {output}
           </pre>
         </div>
