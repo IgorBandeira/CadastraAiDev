@@ -20,7 +20,7 @@ Ao salvar, os dados se preenchidos de forma correta, retornarão como forma de J
 <br>
 <div align="center">
   
-`Link para acesso de Cadastra Aí Dev:` https://rhythmrevival.vercel.app/
+`Link para acesso de Cadastra Aí Dev:` https://cadastra-ai-dev.vercel.app
 
 <div/>
 
